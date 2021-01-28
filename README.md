@@ -10,5 +10,4 @@
 
 ## NOTES
 
-- If I code anymore I'm going a fair bit beyond the allotted interview time.
 - In the interview I talked about some of the next steps, which would be: implementing designer notes in Zeplin to the T, phone number formatting, implementing a photo picker, and having a page without the `- - -` header indicator
