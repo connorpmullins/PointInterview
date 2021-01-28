@@ -37,6 +37,7 @@ const AccountDetails = (props) => {
         <TextInput style={styles.inputWrapper} placeholder="Date of Birth" />
       </View>
       <Button
+        onPress={() => props.navigation.navigate('VerifyIdentity')}
         disabled={false} // based on validation in dev scenario
         text="CONTINUE"
         icon={
@@ -45,7 +46,6 @@ const AccountDetails = (props) => {
             style={styles.buttonIcon}
             name={'arrow-right-circle'}
             color="white"
-            onPress={() => props.navigation.navigate('VerifyIdentity')}
           />
         }
       />
