@@ -2,11 +2,11 @@
 
 ## SETUP
 
-1. [Set Up Your Environment](https://reactnative.dev/docs/environment-setup) (Make sure you have typescript installed globally!)
+1. [Set Up Your Environment](https://reactnative.dev/docs/environment-setup)
 2. [Clone The Project](https://github.com/connorpmullins/PointInterview)
 3. run `yarn` from the directory in the terminal
-4. (ios) `cd ios && pod install `
-5. `react-native run-ios` (or run-android)
+4. (ios) `cd ios && pod install && cd ..`
+5. `npx react-native run-ios` (or run-android)
 
 ## NOTES
 
