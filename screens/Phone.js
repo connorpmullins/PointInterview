@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
   },
   inputWrapper: {
     ...VIEW_STYLES.roundedBox,
+    alignItems: 'center',
     flexDirection: 'row',
   },
   wrapper: {
@@ -36,6 +37,7 @@ const Phone = (props) => {
       <HeaderText header="Enter Your Phone Number To Begin" />
       <View style={styles.inputWrapper}>
         <TextInput
+          autoFocus
           style={styles.input}
           placeholder="(000)000-0000"
           onChange={formatPhone}

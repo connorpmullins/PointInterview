@@ -18,8 +18,10 @@ const styles = StyleSheet.create({
   },
 });
 
-const Button = ({text, disabled, icon, onClick}) => (
+const Button = ({text, disabled, icon, onPress}) => (
   <TouchableOpacity
+    disabled={disabled}
+    onPress={onPress}
     style={[styles.buttonWrapper, !disabled ? styles.activeButton : {}]}>
     <Text style={styles.buttonText}>{text}</Text>
     {icon}

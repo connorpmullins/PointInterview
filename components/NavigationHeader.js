@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'black',
   },
   navHeaderWrapper: {
+    backgroundColor: 'white',
     height: 60,
     justifyContent: 'center',
     paddingHorizontal: 16,
