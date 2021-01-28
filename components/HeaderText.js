@@ -1,20 +1,23 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
+import {TEXT_STYLES} from '../utils/styles';
 
 const styles = StyleSheet.create({
   headerText: {
-    color: 'black',
-    fontSize: '42',
-    fontWeight: '400',
+    textAlign: 'center',
+    ...TEXT_STYLES.header,
   },
   headerTextWrapper: {
-    textAlign: 'center',
+    alignSelf: 'center',
+    marginBottom: 32,
+    marginTop: 6,
+    width: '80%',
   },
 });
 
 const HeaderText = ({header}) => (
   <View style={styles.headerTextWrapper}>
-    <Text>{header}</Text>
+    <Text style={styles.headerText}>{header}</Text>
   </View>
 );
 
